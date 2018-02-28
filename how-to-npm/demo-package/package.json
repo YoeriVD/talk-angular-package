@@ -1,0 +1,12 @@
+{
+  "name": "@yoerivd/timer-as-promise",
+  "version": "1.0.3",
+  "description": "wraps setTimeout in a promise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Yoeri Van Damme",
+  "license": "MIT"
+}
