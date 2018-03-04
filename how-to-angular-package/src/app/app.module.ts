@@ -1,11 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { ComponentsModule } from '@yoerivd/angular-search'
 
 import { AppComponent } from './app.component';
-import { ComponentsModule } from './components/components.module';
 import { PhotoService } from './photo.service';
 import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [

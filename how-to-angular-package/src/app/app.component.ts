@@ -1,5 +1,5 @@
 import { Component, ViewChild, AfterViewInit } from '@angular/core';
-import { SearchComponent } from './components/search/search.component';
+import { SearchComponent } from '@yoerivd/angular-search';
 import { PhotoService } from './photo.service';
 import { PhotoResult } from './photoresult';
 

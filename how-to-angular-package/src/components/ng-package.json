@@ -1,0 +1,12 @@
+{
+    "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
+    "src": ".",
+    "dest": "../../packagedist",
+    "workingDirectory": ".ng_pkg_build",
+    "lib": {
+      "entryFile": "public_api.ts",
+      "__externals": "see https://github.com/dherges/ng-packagr/issues/85 and https://github.com/dherges/ng-packagr/issues/135 ",
+      "externals": {
+      }
+    }
+}
