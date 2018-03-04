@@ -18,4 +18,4 @@
 * <!-- .element: class="fragment" -->...
 
 --
-<!-- .slide: data-background="http://www.reactiongifs.com/r/mth.gif" -->
+<!-- .slide: data-background="img/math.gif" -->

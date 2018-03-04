@@ -107,7 +107,7 @@ export class SdUiModule {
 }
 ```
 --
-<!-- .slide: data-background="https://media1.tenor.com/images/e7dad789c2acd076ab3de961c0d43b45/tenor.gif" -->
+<!-- .slide: data-background="img/futurama.gif" -->
 
 <!-- .slide: style="color:white" -->
 build and enjoy!
