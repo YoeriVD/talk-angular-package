@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl } from '@angular/forms';
 import { Observable } from 'rxjs/Observable';
-import "rxjs/Rx";
+import 'rxjs/Rx';
 @Component({
   selector: 'app-search',
   templateUrl: './search.component.html',

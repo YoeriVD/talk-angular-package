@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { ComponentsModule } from '@yoerivd/angular-search'
+import { ComponentsModule } from '@yoerivd/angular-search';
 
 import { AppComponent } from './app.component';
 import { PhotoService } from './photo.service';

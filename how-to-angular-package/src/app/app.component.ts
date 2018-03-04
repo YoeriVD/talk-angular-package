@@ -10,14 +10,14 @@ import { PhotoResult } from './photoresult';
 })
 export class AppComponent implements AfterViewInit {
   photos: PhotoResult[] = [];
-  @ViewChild(SearchComponent) searchComponent : SearchComponent;
+  @ViewChild(SearchComponent) searchComponent: SearchComponent;
 
-  constructor(private photoService : PhotoService){}
+  constructor(private photoService: PhotoService) {}
   ngAfterViewInit(): void {
     this.searchComponent
         .search$
         .switchMap(query => this.photoService.get(query))
-        .subscribe(photos => this.photos = photos)
+        .subscribe(photos => this.photos = photos);
   }
 
 }

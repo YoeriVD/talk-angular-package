@@ -9,7 +9,7 @@ import { ChangeDetectionStrategy } from '@angular/core';
 })
 export class PhotoSearchResultComponent implements OnInit {
 
-  @Input() imageSrc : string;
+  @Input() imageSrc: string;
   @Input() imageTitle: string;
 
   constructor() { }
