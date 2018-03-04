@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start" : "kc serve",
-    "print" : "kc printnew --url http://localhost:3000 --output slides.pdf", 
+    "start": "kc serve",
+    "print": "kc printnew --url http://localhost:3000 --output slides.pdf",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/YoeriVD/talk-angular-package/issues"
   },
-  "homepage": "https://github.com/YoeriVD/talk-angular-package#readme"
+  "homepage": "https://github.com/YoeriVD/talk-angular-package#readme",
+  "devDependencies": {
+    "@infosupport/kc-cli": "^2.3.6"
+  }
 }
