@@ -12,7 +12,7 @@ Requirements:
 * cancel previous search request is a new one starts
 
 --
-<!-- .slide: data-background="http://www.reactiongifs.com/r/mth.gif" -->
+<!-- .slide: data-background="img/math.gif" -->
 
 --
 ```typescript
@@ -27,4 +27,4 @@ this
 ```
 
 --
-<!-- .slide: data-background="http://www.reactiongifs.com/wp-content/uploads/2013/06/supa-hot-fire.gif" -->
+<!-- .slide: data-background="img/fire.gif" -->

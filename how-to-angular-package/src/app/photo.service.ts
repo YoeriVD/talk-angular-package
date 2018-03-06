@@ -4,14 +4,14 @@ import { PhotoResult } from './photoresult';
 
 @Injectable()
 export class PhotoService {
-  readonly url  = "http://jsonplaceholder.typicode.com/photos"
-  constructor(private http : HttpClient) { }
+  readonly url  = 'http://jsonplaceholder.typicode.com/photos';
+  constructor(private http: HttpClient) { }
 
-  get(search? : string){
-    const url = search 
+  get(search?: string) {
+    const url = search
       ? `${this.url}?q=${search}`
       : this.url;
-      return this.http.get<PhotoResult[]>(url)
+      return this.http.get<PhotoResult[]>(url);
   }
 
 }

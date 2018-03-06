@@ -1,0 +1,22 @@
+{
+    "name": "@yoerivd/angular-search",
+    "version": "0.0.4",
+    "license": "MIT",
+    "private": false,
+    "repository": "https://github.com/YoeriVD/talk-angular-package",
+    "dependencies": {
+    },
+    "devDependencies": {
+    },
+    "peerDependencies": {
+        "@angular/common": "^5.0.0",
+        "@angular/compiler": "^5.0.0",
+        "@angular/core": "^5.0.0",
+        "@angular/forms": "^5.0.0",
+        "@angular/platform-browser": "^5.0.0",
+        "@angular/platform-browser-dynamic": "^5.0.0",
+        "core-js": "^2.4.1",
+        "rxjs": "^5.5.2",
+        "zone.js": "^0.8.14"
+    }
+  }

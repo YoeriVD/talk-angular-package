@@ -1,0 +1,25 @@
+{
+  "name": "talk-angular-package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "kc serve",
+    "print": "kc printnew --url http://localhost:3000 --output slides.pdf",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YoeriVD/talk-angular-package.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YoeriVD/talk-angular-package/issues"
+  },
+  "homepage": "https://github.com/YoeriVD/talk-angular-package#readme",
+  "devDependencies": {
+    "@infosupport/kc-cli": "^2.3.6"
+  }
+}
