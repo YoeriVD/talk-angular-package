@@ -22,10 +22,7 @@ this
     .debounceTime(300)
     .filter(v > !v || v.length > 1)
     .distinctUntilChanged()
-    .switchMap(query => 
-        Observable.fromPromise(this.http
-                                   .get(`${this.url}?q=${query}`))
-    )
+    .switchMap(query => this.http.get(`${this.url}?q=${query}`))
     .subscribe(results => this.results = results);
 ```
 
