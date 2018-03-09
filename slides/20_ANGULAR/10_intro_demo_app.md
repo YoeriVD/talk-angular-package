@@ -20,7 +20,7 @@ this
     .input
     .valueChanges
     .debounceTime(300)
-    .filter(v > !v || v.length > 1)
+    .filter(v => !v || v.length > 1)
     .distinctUntilChanged()
     .switchMap(query => this.http.get(`${this.url}?q=${query}`))
     .subscribe(results => this.results = results);
